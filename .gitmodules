@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = https://ammaskartik:f4f1d1bf33096158b8b66d1e8cf7a08aa66a3cbf@github.com/devtuitive/devtuitive.github.io
+	url = https://github.com/devtuitive/devtuitive.github.io
 	branch = master
