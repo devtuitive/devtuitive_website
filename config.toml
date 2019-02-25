@@ -1,19 +1,19 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
-languageCode = "en-AU"
-title = "My Awesome Title"
+baseURL = "https://devtuitive.com/"
+languageCode = "en-us"
+title = "Devtuitive"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Kartik Venkatesh"
+  description = "Devtuitive. Experience meets innovation. All your Project & Tech needs handled."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "Devtuitive"
+  description = "Trust your Devtuition. From Vision to Reality."
 
 # Navigation section
 [params.nav]
