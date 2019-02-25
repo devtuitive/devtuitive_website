@@ -13,7 +13,7 @@ title = "Devtuitive"
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "Devtuitive"
-  description = "Trust your Devtuition. From Vision to Reality."
+  description = "Trust your Devtuition. From Vision to Reality.\n\nWe do Web | Apps | Data | APIs | Architecture | Project Management\n\nEnd-End Products\n\nDecentralized and Distributed Systems including Blockchain\n\nInterested? Launch with us. <launch@devtuitive.com>"
 
 # Navigation section
 [params.nav]
@@ -101,7 +101,7 @@ title = "Devtuitive"
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
