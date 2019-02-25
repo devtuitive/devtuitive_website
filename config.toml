@@ -17,7 +17,7 @@ title = "Devtuitive"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  # mission = "Our Mission"
   services = "Services"
   team = "The Team"
   contact = "Get In Touch"
@@ -26,7 +26,7 @@ title = "Devtuitive"
 
 # Mission section
 [params.mission]
-  enable = true
+  enable = false
 
   [params.mission.images]
     enable = true
@@ -64,40 +64,35 @@ title = "Devtuitive"
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  description = "We are Devtuitive. We are bringing industry proven experience to form an intuitive and innovation capable agency that can bring your ideas whether standard or bespoke to life."
 
   [[params.services.item]]
     icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Web Design & Development"
+    description = "Packages range from standard to complete Bespoke implementations."
 
   [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = "icon-present"
+    title = "Products & Apps"
+    description = "Need an App or yoru Product idea designed and built? We got you covered."
 
   [[params.services.item]]
     icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Launch with us"
+    description = "We provide End-End Software Architecture and Project Management services."
 
   [[params.services.item]]
     icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Easy to work with."
+    description = "We provide a no fuss experience in working with us, and will be completely upfront on all industry competitive costs."
+
+    [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Other Services."
+    description = "Anything Data including Machine Learning. Decentralized and Distributed system design including Blockchain."
 
 # Work section
 [params.work]
